@@ -1,8 +1,10 @@
 <template>
-  <div id="app">
+  <div id="main-application-app">
     <router-link to="/home">home</router-link>
     <router-link to="/about">about</router-link>
+    <!-- <router-link to="/micro-app-1">micro-app-1</router-link> -->
     <router-view></router-view>
+    <div id="micro-app-container"></div>
   </div>
 </template>
 
@@ -16,7 +18,7 @@ export default {
 </script>
 
 <style>
-#app {
+#main-application-app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

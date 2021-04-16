@@ -1,0 +1,8 @@
+[{
+  "id": 1,
+  "port": "8080",
+  "name": "micro-app-1",
+  "entry": "//localhost:8082",
+  "container": "#micro-app-container",
+  "activeRule": "#/micro-app-1"
+}]
